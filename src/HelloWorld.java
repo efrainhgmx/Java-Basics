@@ -14,5 +14,10 @@ public class HelloWorld {
 
         //This is very similar like JavaScript
         var flexibleVariable = "3";
+
+        String userName;
+        userName = "Andres Gomez";
+
+        System.out.println(userName + flexibleVariable);
     }
 }
