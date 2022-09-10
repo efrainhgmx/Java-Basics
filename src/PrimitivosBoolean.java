@@ -13,6 +13,10 @@ public class PrimitivosBoolean {
         System.out.println("Dato es = " + datoLogico);
         
         int valorUno = 125;
+        float valorDos = 0125;
+        var valorVar = 0125;
         System.out.println("valorUno = " + valorUno);
+        System.out.println("valorDos = " + valorDos);
+        System.out.println("valorVar = " + valorVar);
     }
 }
