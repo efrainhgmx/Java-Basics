@@ -1,4 +1,4 @@
-public class Primitivos {
+public class PrimitivosEnteros {
     public static void main(String[] args) {
         //Entero de 8 bits, entero más pequeño en java
         byte numeroByte = 127;
