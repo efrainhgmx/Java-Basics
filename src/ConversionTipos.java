@@ -22,6 +22,11 @@ public class ConversionTipos {
         
         numeroStrInt = String.valueOf(numeroEnt + 10);
         System.out.println("numeroStrInt = " + numeroStrInt);
+
+        int i = 1000;
+        //Cast fuerza la conversion
+        short s = (short) i;
+        System.out.println("s = " + s);
     }
 
 }
