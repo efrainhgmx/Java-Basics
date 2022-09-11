@@ -15,6 +15,13 @@ public class ConversionTipos {
 
         boolean booleanB = Boolean.parseBoolean(booleanStr);
         System.out.println("booleanB = " + booleanB);
+        
+        int numeroEnt = 100;
+        String numeroStrInt = Integer.toString(numeroEnt);
+        System.out.println("numeroStrInt = " + numeroStrInt);
+        
+        numeroStrInt = String.valueOf(numeroEnt + 10);
+        System.out.println("numeroStrInt = " + numeroStrInt);
     }
 
 }
