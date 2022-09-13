@@ -16,5 +16,15 @@ public class StringMetodos {
 
         System.out.println("Obtener una parte del String: " + nombre.substring(0, 4));
         System.out.println("Ultimos dos caracteres: " + nombre.substring(nombre.length() - 2));
+
+        String trabalenguas = "Trabalenguas";
+        System.out.println("Remplaza un caracter por otro: " + trabalenguas.replace("a", "+"));
+
+        //Si devuelve un valor negativo es porque no lo econtro!
+        System.out.println("Entrega la posicion del primer caracter que encucentre:  " + trabalenguas.indexOf("a"));
+        System.out.println("Entrega la poscion de la ulitima ocurrencia: " + trabalenguas.lastIndexOf("a"));
+        System.out.println("Verifica si contiene en el string: " + trabalenguas.contains("lenguas"));
+        System.out.println("Verifica si inicia con: " + trabalenguas.startsWith("Traba"));
+        System.out.println("Verifica si termina con: " + trabalenguas.endsWith("guas"));
     }
 }
