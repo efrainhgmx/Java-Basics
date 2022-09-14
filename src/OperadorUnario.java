@@ -7,5 +7,8 @@ public class OperadorUnario {
         System.out.println("j = " + j);
         System.out.println("k = " + k);
         
+        int incremento = ++i; // i = i + 1;
+        System.out.println("incremento = " + incremento);
+        
     }
 }
