@@ -17,5 +17,17 @@ public class OperdorInstanceOf {
         tipo = num instanceof Number;
         System.out.println(tipo);
 
+        Object text = "Texto de la clase root Object";
+
+        tipo = text instanceof Integer;
+        System.out.println(tipo);
+
+        //Todos los numeros en java son del tipo number
+        Number nu = 12;
+
+        tipo = nu instanceof Long;
+        System.out.println(tipo);
+
+
     }
 }
